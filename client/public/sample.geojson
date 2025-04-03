@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "서울시청" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.9784, 37.5665]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "서울시 경계" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [126.97, 37.56],
+            [126.99, 37.56],
+            [126.99, 37.58],
+            [126.97, 37.58],
+            [126.97, 37.56]
+          ]
+        ]
+      }
+    }
+  ]
+}
